@@ -1,0 +1,113 @@
+--------------------------------------
+Developed by
+Thomas Jacob
+email: thomjakub@hotmail.com
+
+Credits
+Rahul Mohan
+email: mr_raahul@yahoo.com
+--------------------------------------
+
+INTRODUCTION
+  
+     Crossworder Pro is a result of
+my frustrations with the daily crossword
+I'm sure you would also have had the
+same crushing feeling when you saw 
+the solution. . . so simple!?
+
+    Well, I know that this program
+defeats the very purpose of solving
+crosswords, but for those of you who
+don't mind a little bit of cheating,
+here's the solution.
+
+    Crack the Grid!
+
+Best of Luck,
+Thomas Jacob
+
+VERSION HISTORY
+
+Version 2.2 (completed 24 March,2001)
+* Removed bugs in interface
+* Added feature Autoshow results
+* Intuitive input recognition
+* Added Bubble Help
+* Autoswitch module feature
+
+Version 2.1
+* Reintroduced module-specification 
+  through control characters
+* Filter results as checkbox
+* Layout of buttons improved
+* Limited display results to 500
+* Button disabling during operations
+* Bugs due to porting fixed
+
+Version 2.0 (after a hiatus of 1 year!)
+* First Windows version
+* GUI Interface
+* Search within results capability
+* Improved search engine
+* Manual selection of module
+* Removed ZIP file dependence
+
+Version 1.3
+* Majorly revamped interface
+* On-screen instructions
+* Slider bar for search
+* Advanced search capability
+
+Version 1.2
+* Fixed bug with LetterSet
+* Running input-length indicator
+* Length-based search
+* Dictionary of 160,000 words
+
+Version 1.1
+* Text-based integrated interface
+* Larger dictionary of 100,000 words
+* Added modules LetterSet and String
+* Module specification by appending 
+  control  characters to search-string
+* Archived dictionary
+
+Version 1.0 (completed Feb 27,1999)
+* Developed in Turbo Basic 
+* Dictionary of over 60,000 words
+* Modules - Anagrammer,WordFinder
+* Command line operation
+
+
+IMPROVEMENTS
+
+Planned for version 2.3
+
+* Customizable dictionary
+* Dictionary tools
+* Improved search
+* Slider bar for search status
+* HELP!!? :-)
+
+If you have any other recommendations
+and/or any bug reports to make, please
+mail us. Your feedback is very 
+important to us.
+
+
+THANKS
+ 
+  Thank you for using CrossWorder Pro!
+   
+    We remind you that this program is
+freeware and you may distribute this
+program freely. However, do make sure 
+that the distribution is complete and 
+includes all the required files. 
+
+Please do not modify the original 
+distribution in any way!
+
+
+March 2001
