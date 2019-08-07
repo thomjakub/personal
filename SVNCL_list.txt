@@ -1,0 +1,33 @@
+SVN list:
+
+To list the directory entries in the repository
+usage: list [TARGET[@REV]...]
+
+Eg: 1. svn list
+    2. svn list LAB
+    3. svn list LAB/totestrename1
+
+
+
+a.To list directory entries with option -r(revision) with NUMBER
+Eg: 1. svn list -r 126
+    2. svn list LAB/totestrename1 -r 87
+    
+
+b.To list directory entries with option -r(revision) with "HEAD" (latest in repository) and "BASE"(base revision of item's working copy) 
+Eg: 1. svn list -r "HEAD"
+    2. svn list LAB -r "HEAD"
+    3. svn list LAB -r "BASE"
+
+c.To list directory entries with option -r (revision) with "PREV" (revision just before COMMITTED)
+Eg: 1. svn list -r "PREV"
+    2. svn list LAB -r "PREV"
+
+d.To lsit directory entries with option -r (revision) with "COMMITTED" (last commit at or before BASE)
+Eg: 1. svn list -r "COMMITTED"
+    2. svn list LAB -r "COMMITTED"
+    
+
+e.To lsit directory entries with option -v (verbose) print extra information 
+Eg: 1. svn list -v 
+    2. svn list LAB -v

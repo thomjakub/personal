@@ -1,0 +1,11 @@
+SVN differences:
+
+To display the differences between two paths
+usage: diff [-r N:[M]] [TARGET[@REV]...]
+*N defaults to BASE if any TARGET is a working copy path, otherwise it must be specified
+*M defaults to the current working version if any TARGET is working copy path, 
+ otherwise it defaults to HEAD
+*TARGETS may be working copy of paths or URLs
+
+
+Eg: 1. svn diff -r 83:88 BRANCHES/BMPIC_0_0_1dnp/DOC/SVNCL_add.txt

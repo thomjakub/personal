@@ -1,0 +1,22 @@
+SVN mkdir:
+
+To create a directory in repository
+usage: mkdir PATH...
+    
+   
+To create "directories"
+1.Current directory: svn mkdir directoryname_tocreate
+Eg: svn mkdir tocreatedir
+    svn commit -m ""	
+
+2.Outside directory: svn mkdir dir1/.../.../directoryname_tocreate   
+Eg: svn mkdir LAB/tocreatedir/tocreatedir2
+    svn commit LAB -m "created dir"	
+
+
+
+Note:
+* No "add" command is required when "mkdir" command used
+  as,the command itself adds the directory which is created.
+* Immidiately after the directory is created using command "mkdir" 
+  should be follwed by command "commit"

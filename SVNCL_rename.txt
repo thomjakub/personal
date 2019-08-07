@@ -1,0 +1,28 @@
+SVN rename:
+*rename is same move
+
+To rename files or directories in repository via an immidiate commit
+usage: move SRC DST
+*SRC and DST can both be working copy(WC) paths or URL
+    
+   
+1.To rename "files"
+a.Current directory: svn move Src_filename Dst_filename
+  Eg: svn move test.txt test1.txt
+      svn commit -m ""
+
+
+b.Outside directory: svn rename Src_dir/filename Dst_dir/filename  
+  Eg: svn rename LAB/test4.txt LAB/test.txt
+      svn commit LAB -m "" or svn commit LAB/test.txt -m ""
+
+
+2.To rename "directories"
+a.Current directory: svn rename  Src_directoryname Dst_directoryname
+  Eg: svn rename totestdelete totestrename
+      svn commit totestrename -m "renamed the dir"
+
+
+b.Outside directory: svn move Src_dir/filename Dst_dir/filename
+  Eg: svn move  LAB/totestdelete1 LAB/totestrename1
+      svn commit LAB -m ""

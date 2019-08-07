@@ -1,0 +1,7 @@
+Creating and working with Branch:
+*Make a copy of the project in the repository using the svn copy command
+
+Eg. svn copy trunk branches/newdir_branchname
+    svn commit -m "msg"
+*New branch is created and start working on the new working copy
+

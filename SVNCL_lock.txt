@@ -1,0 +1,7 @@
+SVN lock:
+
+To lock the working paths or URLs in the repository,so that no other user can commit changes to it
+usage: lock TARGET...
+
+Eg: 1. svn lock test.txt
+    2. svn lock LAB/totestrename1/example.txt

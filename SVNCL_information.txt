@@ -1,0 +1,29 @@
+SVN information:
+
+To dispaly information about a local or remote item
+usage: info [TARGET...]
+*TARGET may be either a working-copy or URL
+
+
+a.To display information with option -r (revision) with NUMBER
+Eg: 1. svn info -r 70 
+    2. svn info -r 87 test1.txt
+    3. svn info -r 123 LAB
+
+
+b.To display information with option -R (recursive) 
+Eg: 1. svn info -R 
+    2. svn info -R test1.txt
+    3. svn info -R LAB/test2.txt
+
+
+
+
+
+
+
+
+
+
+
+

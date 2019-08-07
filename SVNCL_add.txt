@@ -1,0 +1,26 @@
+SVN add:
+
+To add files and directories to repository
+usage: add PATH 
+*PATH is mandatory
+
+1.To add "files"
+a.Current directory: svn add filename 
+  Eg: svn add test.txt
+
+b.Outside directory: svn add dir/filename 
+  Eg: svn add LAB/test.txt
+
+
+
+2.To add "directories"
+a.Current directory: svn add directoryname
+  Eg: svn add totestadd
+
+b.Outside directory: svn add dir/filename 
+  Eg: svn add LAB/totestadd
+
+
+
+
+	

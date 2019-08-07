@@ -1,0 +1,17 @@
+SVN import:
+
+To commit an unversioned file or tree into the repository
+usage: import [PATH] URL
+*PATH is optional
+
+Eg: 1. svn import testimport/testimport.txt svn://ocodoco.mistralsoftware.com:2007/LAB/testimport.txt -m "new import"
+    *Imports the specified file in the PATH to the URL 
+
+    2. svn import testimport svn://ocodoco.mistralsoftware.com:2007/LAB/ -m "new import" 
+    *Only the files in the folder testimport is imported to the specified URL
+
+    3. svn import testimport svn://ocodoco.mistralsoftware.com:2007/LAB/totestimport -m "new import"   
+    *Imports the directory (totestimport) itself with its contents to the dir (totestimport) specified in the URL
+
+    4. svn import svn://ocodoco.mistralsoftware.com:2007/LAB/testcreatedir -m "new import"
+    *If PATH is omitted "." is assumed 

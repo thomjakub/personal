@@ -1,0 +1,9 @@
+SVN propget:
+
+To print the value of a property from files 
+usage: propget PROPNAME [TARGET[@REV]...]
+*Prints versioned props
+*REV determines in which revision the traget is first looked up.Its optional
+
+Eg: 1. svn propget svn:mime-type hi.doc
+    2. svn propget svn:mime-type LAB/hi.doc

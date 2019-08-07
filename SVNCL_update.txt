@@ -1,0 +1,10 @@
+SVN update:
+
+To update the repository
+usage: update [PATH]
+*PATH is optional
+    
+   
+Eg: 1. svn update
+    2. svn update LAB
+    3. svn update LAB/totestrename1

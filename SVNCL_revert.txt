@@ -1,0 +1,8 @@
+SVN revert:
+
+To restore most local edits
+usage: revert PATH...
+    
+   
+Eg: 1. svn revert test1.txt
+    2. svn revert LAB/test1.txt

@@ -1,0 +1,39 @@
+SVN log:
+
+To show the log messages
+usage: log [PATH]
+*PATH is optional       
+       
+a.show log for all files and directories of current directory
+  Eg: svn log 
+
+b.show log for a file
+  Eg: svn log test.txt
+    
+c.show log for a directory
+  Eg: svn log LAB
+ 
+d.show log with option -r (revision) with NUMBER
+  Eg: 1. svn log -r 87
+      2. svn log test.txt -r 75
+      3. svn log LAB -r 98
+      4. svn log -r 99:87
+
+e.show log with option -r (revision) with "HEAD" (latest in repository)
+  Eg: 1. svn log -r HEAD 			* double quotes is optional
+      2. svn log -r HEAD:1   			* default revision range for PATHS under URL
+      3. svn log -r HEAD:BASE
+      4. svn log -r HEAD:88
+      
+      
+f.show log with option -r (revision) with "BASE" (base revision of item's working copy) 
+  Eg: 1. svn log -r BASE 			* double quotes is optional
+      2. svn log -r BASE:1			* default revision range for a local PATH
+      3. svn log -r BASE:HEAD
+      4. svn log -r BASE:90
+
+g.show log with option -r (revision) with "PREV" (revision just before COMMITTED)
+  Eg: svn log -r "PREV"
+
+
+

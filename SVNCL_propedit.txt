@@ -1,0 +1,11 @@
+SVN propedit:
+
+To edit a property from files via an immidiate commit
+usage: propedit PROPNAME PATH...
+*Edits versioned props value in working copy
+
+Eg: 1. svn propedit svn:mime-type hi.doc
+       svn commit -m "edited prop"
+   
+    2. svn propedit svn:mime-type LAB/hi.doc
+       svn commit -m "edited prop"

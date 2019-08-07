@@ -1,0 +1,19 @@
+SVN export:
+
+To create an unversioned copy of a tree i.e to Export a clean directory tree
+usage: 1. export [-r REV] URL[@PEGREV] [PATH]
+       2. export [-r REV] PATH1[@PEGREV] [PATH2]
+
+*PEGREV determines in which revision the target is first looked up.Its optional
+
+Eg: 1. svn export svn://ocodoco.mistralsoftware.com:2007/BRANCHES LAB1
+    2. svn export BRANCHES LAB1
+    3. svn export -r 23 BRANCHES LAB1
+    
+
+    
+
+
+
+
+

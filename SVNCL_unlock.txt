@@ -1,0 +1,7 @@
+SVN unlock:
+
+To unlock the working paths or URLs in the repository
+usage: unlock TARGET...
+
+Eg: 1. svn unlock test.txt
+    2. svn unlock LAB/totestrename1/example.txt

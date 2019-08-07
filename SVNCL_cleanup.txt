@@ -1,0 +1,9 @@
+SVN cleanup:
+
+To clean up the woking copy, removing locks, resuming unfinished operations, etc.
+usage: cleanup [PATH]
+*PATH is optional
+        
+   
+Eg: 1. svn cleanup 
+    2. svn cleanup LAB/

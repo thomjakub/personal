@@ -1,0 +1,9 @@
+SVN checkout:
+
+To check out hosted repository
+usage: checkout URL[@REV]... [PATH]
+*@REV is optional
+*PATH is optional
+
+URL: [svn://] IPaddress:Port
+Eg: svn checkout svn://ocodoco.mistralsoftware.com:2007/home/deepa/svn_bmpic

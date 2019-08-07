@@ -1,0 +1,8 @@
+SVN resolved:
+
+To remove "conflicted" state on working copy files or directories
+usage: resolved PATH...
+
+Eg: 1. svn resolved test.txt
+    2. svn resolved LAB/totestrename.txt
+ 

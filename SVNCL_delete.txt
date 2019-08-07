@@ -1,0 +1,23 @@
+SVN delete:
+
+To delete files or directories from repository via an immidiate commit
+usage: delete PATH...
+       
+1.To delete "files"
+a.Current directory: svn delete filename 
+  Eg: svn delete test4.txt 
+      svn commit test4.txt -m "deleted file"
+
+b.Outside directory: svn delete dir/filename 
+  Eg: svn delete LAB/test4.txt 
+      svn commit LAB -m ""
+
+
+2.To delete "directories"
+a.Current directory: svn delete directoryname 
+  Eg: svn delete totestdelete 
+      svn commit totestdelete -m ""
+
+b.Outside directory: svn delete dir/filename 
+  Eg: svn delete LAB/totestdelete1 
+      svn commit LAB -m "deleted dir"

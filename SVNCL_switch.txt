@@ -1,0 +1,13 @@
+SVN switch:
+
+To update working copy to a different URL
+usage: switch URL [PATH]
+*updates the working copy to point to a new URL.This is the svn way to move working copy
+to a new branch.
+
+
+Eg: 1. svn switch svn://ocodoco.mistralsoftware.com:2007 LAB
+    
+
+To switch back
+Eg: 1. svn switch svn://ocodoco.mistralsoftware.com:2007/ ./

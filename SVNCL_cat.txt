@@ -1,0 +1,29 @@
+SVN cat:
+
+To output the contents of specified files or URLs
+usage: cat TARGET[@REV]
+*TARGET can only be files
+*REV determines in which revision the target is first looked up
+*REV is optional
+
+
+Eg: 1. svn cat test1.txt
+    2. svn cat LAB/totestrename1/test1.txt
+    3. cat LAB/totestrename1/test1.txt 
+
+a.show output with option -r (revision) with NUMBER
+  Eg: 1. svn cat test1.txt -r 111
+      2. svn cat LAB/totestrename1/test1.txt -r 111
+
+
+b.show output with option -r (revision) with "HEAD" (latest in repository) and "BASE"(base revision of item's working copy) 
+  Eg. 1. svn cat LAB/totestrename1/test1.txt -r "HEAD"
+      2. svn cat LAB/totestrename1/test1.txt -r "BASE"
+      3. svn cat test1.txt -r "HEAD"
+      4. svn cat test2.txt -r "BASE"
+
+c.show output with option -r (revision) with "PREV" (revision just before COMMITTED)
+  Eg: 1. svn cat LAB/totestrename1/test1.txt -r "PREV"
+      2. svn cat LAB/totestrename1/test1.txt -r "PREV"
+      3. svn cat test1.txt -r "PREV"
+      4. svn cat test2.txt -r "PREV"

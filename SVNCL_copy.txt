@@ -1,0 +1,29 @@
+SVN copy:
+
+To duplicate something in woking copy or in repository
+usage: copy SRC DST
+*SRC and DST can both be working copy(WC) paths or URL
+        
+   
+1.To copy "files"
+a.Current directory: svn copy Src_filename Dst_filename
+  Eg: svn copy test.txt test1.txt
+      svn commit -m ""
+
+
+b.Outside directory: svn copy Src_dir/filename Dst_dir/filename  
+  Eg: svn copy LAB/test4.txt LAB/test.txt
+      svn commit LAB -m "" or svn commit LAB/test.txt -m ""
+
+
+2.To rename "directories"
+a.Current directory: svn copy Src_directoryname Dst_directoryname
+  Eg: svn copy totestdelete totestrename
+      svn commit totestrename -m "renamed the dir"
+
+
+b.Outside directory: svn copy Src_dir/filename Dst_dir/filename
+  Eg: svn copy LAB/totestdelete1 LAB/totestrename1
+      svn commit LAB -m ""
+ 
+    

@@ -1,0 +1,11 @@
+SVN propset:
+
+To set the value of a property on files via an immidiate commit
+usage: propset PROPNAME PROPVAL PATH...
+*creates a versioned, local propchange in working copy
+
+Eg: 1. svn propset svn:mime-type 'application/octetstream' hi.doc
+       svn commit -m "set prop"
+     
+    2. svn propset svn:mime-type 'application/octetstream' LAB/hi.doc
+       svn commit -m "set prop"

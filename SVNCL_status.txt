@@ -1,0 +1,23 @@
+SVN status:
+
+To print the status of working copy files and directories
+usage: status [PATH...]
+*PATH is optional
+
+1.To display update information use -u option
+Eg: 1. svn status -u
+    2. svn status -u test1.txt
+    3. svn status -u LAB/teast1.txt
+
+2.To print extra information use -v option
+Eg: 1. svn status -v
+    2. svn status -v test1.txt
+    3. svn status -v LAB/teast1.txt
+
+3.To print the update information and extra information
+Eg: 1. svn status -u -v 
+    2. svn status -u -v test1.txt
+    3. svn status -u -v LAB/test1.txt
+
+
+

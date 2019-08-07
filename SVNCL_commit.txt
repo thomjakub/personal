@@ -1,0 +1,25 @@
+SVN commit:
+
+To commit files or directories to repository
+usage: commit [PATH....] 
+*PATH is optional
+
+1.To commit "files"
+a.Current directory: svn commit filename -m "log message"
+  Eg: svn commit test.txt -m "added test file"
+
+b.Outside directory: svn commit dir/filename -m "log message"
+  Eg: svn commit LAB/test.txt -m "added test file"
+
+
+2.To commit "directories"
+a.Current directory: svn commit directoryname -m "log message"
+  Eg: svn commit totestcommit -m ""
+
+b.Outside directory: svn commit dir/filename -m "log message"
+  Eg: svn commit LAB/totestcommit -m "added test dir"
+
+
+Note:
+*-m: specify commit message ARG
+*A log message is must be provided, but it can be empty.

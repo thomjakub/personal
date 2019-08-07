@@ -1,0 +1,7 @@
+SVN help:
+
+To describe the usage of subcommands
+usage: help [SUBCOMMAND...]
+
+Eg: 1. svn help add
+    2. svn help copy

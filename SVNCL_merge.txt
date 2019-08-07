@@ -1,0 +1,8 @@
+SVN merge:
+
+To apply the differences between two sources to a working copy path
+usage: merge -r N:M SOURCE[@REV] [WCPATH]
+
+Eg: 1. svn merge -r 186:187 testmerge.txt
+    2. svn merge -r 187:186 testmerge.txt
+    

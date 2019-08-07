@@ -1,0 +1,21 @@
+To merge the working copy (In-Branch) to Trunk:
+
+Look for the histroy of changes made on private copy (working copy) and main line (trunk)
+
+Eg: svn log -v one-trunk/test.txt 
+    *working on main line of development
+ 
+     svn log -v two-branch/my-one-branch/test.txt
+     *working on private branch
+
+     svn merge -r 15:16 one-trunk/test.txt two-branch/my-one-branch/test.txt
+     *The output shows that test.txt was patched .It contains the main line changes 
+      - the change has been "copied" from the trunk to the working copy of private branch
+      and now exists as a local modification.
+
+     svn commit -m "merged with the trunk"
+     *If there is conflict state, it has to be resolved using standard procedure
+      1.Merge the conflicted test "by hand" (by examining and editing the conflict markers within the file)
+      2.Copy one of the temporary files on top of the working file
+      3.Run svn revert <filename> to throw away all local changes 
+      4.Once the conflict is resolved do svn commit

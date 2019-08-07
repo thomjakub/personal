@@ -1,0 +1,10 @@
+SVN proplist:
+
+To list all properties on files
+usage: proplist [TARGET[@REV]..]
+*Lists versioned props.
+*REV determines in which revision the target is first looked up.Its optional
+
+Eg: 1. svn proplist hi.doc
+    2. svn proplist LAB/hi.doc
+ 

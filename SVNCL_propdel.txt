@@ -1,0 +1,11 @@
+SVN propdel:
+
+To remove a property from files via an immidiate commit
+usage: propdel PROPNAME [PATH...]
+*removes versioned props in working copy
+
+Eg: 1. svn propdel svn:mime-type hi.doc
+       svn commit -m "deleted prop"
+   
+    2. svn propdel svn:mime-type LAB/hi.doc
+       svn commit -m "deleted prop"
